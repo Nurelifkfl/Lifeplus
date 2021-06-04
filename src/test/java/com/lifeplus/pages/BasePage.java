@@ -8,6 +8,17 @@ public class BasePage {
     @FindBy(xpath = "//*[text()='Log in or register']")
     WebElement loginButton;
 
+    @FindBy(css = ".popup-button.login-button")
+    WebElement popUpLoginButton;
+
+    @FindBy(xpath = "(//input[@name='user-name'])[2]")
+    WebElement username;
+
+    @FindBy(xpath = "(//input[@name='password'])[2]")
+    WebElement password;
+
+    @FindBy(xpath = "(//span[@class='iconbutton-text'])[2]")
+    WebElement Login;
 
 
 
