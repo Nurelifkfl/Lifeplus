@@ -15,6 +15,8 @@ public class LoginStepDefinitions {
     @Given("user is on homepage")
     public void user_is_on_homepage() {
         Driver.get().get(ConfigurationReader.get("url"));
+
+
     }
 
     @When("user navigates to login")
