@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/argos/stepDefinitions",
+        glue = "com/lifeplus/step_definitions",
         dryRun = false,
         tags = "@wip"
 
